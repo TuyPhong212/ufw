@@ -1,0 +1,16 @@
+#
+#
+#
+# * title : filter table
+# * author: LG-CSEU-Connectivity@lge.com
+#
+
+#*nat
+#@common_debug_rule_nat@
+#COMMIT
+
+*filter
+@common_base_rule@
+@common_wl_rule@
+@common_debug_rule@
+COMMIT
